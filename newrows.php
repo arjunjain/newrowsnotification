@@ -5,7 +5,7 @@ require_once 'PHPMailer/class.smtp.php';
 require_once 'PHPMailer/PHPMailerAutoload.php';
 
 $base_path 				=	dirname(__FILE__);
-$csv_filename 			=	$base_path."/".date('Y-m-d-H-i-s').".csv";
+$csv_filename 			=	$base_path."/Checkfollow-".date('Y-m-d-H-i-s').".csv";
 $last_edit_file_name 	= 	$base_path."/last_edited.txt";
 
 $last_edit_file 		= 	fopen($last_edit_file_name, "r");
